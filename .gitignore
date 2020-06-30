@@ -1,5 +1,6 @@
 venv
 .idea
-portfolio/__pycache__/*
-app/__pycache__/*
+portfolio/__pycache__
 .vscode
+app/__pycache__
+app/migrations/__pycache__
