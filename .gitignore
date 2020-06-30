@@ -1,3 +1,5 @@
 venv
 .idea
 portfolio/__pycache__/*
+app/__pycache__/*
+.vscode
