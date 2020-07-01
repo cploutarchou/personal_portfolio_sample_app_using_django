@@ -2567,7 +2567,6 @@ textarea.form-control {
         justify-content: center;
         margin-bottom: 0;
     }
-
     .form-inline .form-group {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2584,22 +2583,18 @@ textarea.form-control {
         align-items: center;
         margin-bottom: 0;
     }
-
     .form-inline .form-control {
         display: inline-block;
         width: auto;
         vertical-align: middle;
     }
-
     .form-inline .form-control-plaintext {
         display: inline-block;
     }
-
     .form-inline .input-group,
     .form-inline .custom-select {
         width: auto;
     }
-
     .form-inline .form-check {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2613,7 +2608,6 @@ textarea.form-control {
         width: auto;
         padding-left: 0;
     }
-
     .form-inline .form-check-input {
         position: relative;
         margin-top: 0;

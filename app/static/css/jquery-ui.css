@@ -9,7 +9,6 @@
 .ui-helper-hidden {
     display: none;
 }
-
 .ui-helper-hidden-accessible {
     border: 0;
     clip: rect(0 0 0 0);
@@ -20,7 +19,6 @@
     position: absolute;
     width: 1px;
 }
-
 .ui-helper-reset {
     margin: 0;
     padding: 0;
@@ -31,22 +29,18 @@
     font-size: 100%;
     list-style: none;
 }
-
 .ui-helper-clearfix:before,
 .ui-helper-clearfix:after {
     content: "";
     display: table;
     border-collapse: collapse;
 }
-
 .ui-helper-clearfix:after {
     clear: both;
 }
-
 .ui-helper-clearfix {
     min-height: 0; /* support: IE7 */
 }
-
 .ui-helper-zfix {
     width: 100%;
     height: 100%;
@@ -92,7 +86,6 @@
     width: 100%;
     height: 100%;
 }
-
 .ui-button {
     display: inline-block;
     position: relative;
@@ -104,7 +97,6 @@
     text-align: center;
     overflow: visible; /* removes extra width in IE */
 }
-
 .ui-button,
 .ui-button:link,
 .ui-button:visited,
@@ -112,21 +104,17 @@
 .ui-button:active {
     text-decoration: none;
 }
-
 /* to make room for the icon, a width needs to be set here */
 .ui-button-icon-only {
     width: 2.2em;
 }
-
 /* button elements seem to need a little more width */
 button.ui-button-icon-only {
     width: 2.4em;
 }
-
 .ui-button-icons-only {
     width: 3.4em;
 }
-
 button.ui-button-icons-only {
     width: 3.7em;
 }
@@ -136,32 +124,26 @@ button.ui-button-icons-only {
     display: block;
     line-height: normal;
 }
-
 .ui-button-text-only .ui-button-text {
     padding: .4em 1em;
 }
-
 .ui-button-icon-only .ui-button-text,
 .ui-button-icons-only .ui-button-text {
     padding: .4em;
     text-indent: -9999999px;
 }
-
 .ui-button-text-icon-primary .ui-button-text,
 .ui-button-text-icons .ui-button-text {
     padding: .4em 1em .4em 2.1em;
 }
-
 .ui-button-text-icon-secondary .ui-button-text,
 .ui-button-text-icons .ui-button-text {
     padding: .4em 2.1em .4em 1em;
 }
-
 .ui-button-text-icons .ui-button-text {
     padding-left: 2.1em;
     padding-right: 2.1em;
 }
-
 /* no icon support for input elements, provide padding by default */
 input.ui-button {
     padding: .4em 1em;
@@ -177,18 +159,15 @@ input.ui-button {
     top: 50%;
     margin-top: -8px;
 }
-
 .ui-button-icon-only .ui-icon {
     left: 50%;
     margin-left: -8px;
 }
-
 .ui-button-text-icon-primary .ui-button-icon-primary,
 .ui-button-text-icons .ui-button-icon-primary,
 .ui-button-icons-only .ui-button-icon-primary {
     left: .5em;
 }
-
 .ui-button-text-icon-secondary .ui-button-icon-secondary,
 .ui-button-text-icons .ui-button-icon-secondary,
 .ui-button-icons-only .ui-button-icon-secondary {
@@ -199,7 +178,6 @@ input.ui-button {
 .ui-buttonset {
     margin-right: 7px;
 }
-
 .ui-buttonset .ui-button {
     margin-left: 0;
     margin-right: -.3em;
@@ -212,12 +190,10 @@ button.ui-button::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
-
 .ui-slider {
     position: relative;
     text-align: left;
 }
-
 .ui-slider .ui-slider-handle {
     position: absolute;
     z-index: 2;
@@ -227,7 +203,6 @@ button.ui-button::-moz-focus-inner {
     -ms-touch-action: none;
     touch-action: none;
 }
-
 .ui-slider .ui-slider-range {
     position: absolute;
     z-index: 1;
@@ -247,21 +222,17 @@ button.ui-button::-moz-focus-inner {
 .ui-slider-horizontal {
     height: .8em;
 }
-
 .ui-slider-horizontal .ui-slider-handle {
     top: -.3em;
     margin-left: -.6em;
 }
-
 .ui-slider-horizontal .ui-slider-range {
     top: 0;
     height: 100%;
 }
-
 .ui-slider-horizontal .ui-slider-range-min {
     left: 0;
 }
-
 .ui-slider-horizontal .ui-slider-range-max {
     right: 0;
 }
@@ -270,22 +241,18 @@ button.ui-button::-moz-focus-inner {
     width: .8em;
     height: 100px;
 }
-
 .ui-slider-vertical .ui-slider-handle {
     left: -.3em;
     margin-left: 0;
     margin-bottom: -.6em;
 }
-
 .ui-slider-vertical .ui-slider-range {
     left: 0;
     width: 100%;
 }
-
 .ui-slider-vertical .ui-slider-range-min {
     bottom: 0;
 }
-
 .ui-slider-vertical .ui-slider-range-max {
     top: 0;
 }
@@ -296,11 +263,9 @@ button.ui-button::-moz-focus-inner {
     font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
     font-size: 1.1em;
 }
-
 .ui-widget .ui-widget {
     font-size: 1em;
 }
-
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea,
@@ -308,23 +273,19 @@ button.ui-button::-moz-focus-inner {
     font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
     font-size: 1em;
 }
-
 .ui-widget-content {
     border: 1px solid #a6c9e2;
     color: #222222;
 }
-
 .ui-widget-content a {
     color: #222222;
 }
-
 .ui-widget-header {
     border: 1px solid #4297d7;
     background: #5c9ccc url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
     color: #ffffff;
     font-weight: bold;
 }
-
 .ui-widget-header a {
     color: #ffffff;
 }
@@ -339,14 +300,12 @@ button.ui-button::-moz-focus-inner {
     font-weight: bold;
     color: #2e6e9e;
 }
-
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
     color: #2e6e9e;
     text-decoration: none;
 }
-
 .ui-state-hover,
 .ui-widget-content .ui-state-hover,
 .ui-widget-header .ui-state-hover,
@@ -358,7 +317,6 @@ button.ui-button::-moz-focus-inner {
     font-weight: bold;
     color: #1d5987;
 }
-
 .ui-state-hover a,
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
@@ -370,7 +328,6 @@ button.ui-button::-moz-focus-inner {
     color: #1d5987;
     text-decoration: none;
 }
-
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
@@ -379,7 +336,6 @@ button.ui-button::-moz-focus-inner {
     font-weight: bold;
     color: #e17009;
 }
-
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
@@ -396,13 +352,11 @@ button.ui-button::-moz-focus-inner {
     background: #fbec88;
     color: #363636;
 }
-
 .ui-state-highlight a,
 .ui-widget-content .ui-state-highlight a,
 .ui-widget-header .ui-state-highlight a {
     color: #363636;
 }
-
 .ui-state-error,
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
@@ -410,25 +364,21 @@ button.ui-button::-moz-focus-inner {
     background: #fef1ec url("images/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;
     color: #cd0a0a;
 }
-
 .ui-state-error a,
 .ui-widget-content .ui-state-error a,
 .ui-widget-header .ui-state-error a {
     color: #cd0a0a;
 }
-
 .ui-state-error-text,
 .ui-widget-content .ui-state-error-text,
 .ui-widget-header .ui-state-error-text {
     color: #cd0a0a;
 }
-
 .ui-priority-primary,
 .ui-widget-content .ui-priority-primary,
 .ui-widget-header .ui-priority-primary {
     font-weight: bold;
 }
-
 .ui-priority-secondary,
 .ui-widget-content .ui-priority-secondary,
 .ui-widget-header .ui-priority-secondary {
@@ -436,7 +386,6 @@ button.ui-button::-moz-focus-inner {
     filter: Alpha(Opacity=70); /* support: IE8 */
     font-weight: normal;
 }
-
 .ui-state-disabled,
 .ui-widget-content .ui-state-disabled,
 .ui-widget-header .ui-state-disabled {
@@ -444,7 +393,6 @@ button.ui-button::-moz-focus-inner {
     filter: Alpha(Opacity=35); /* support: IE8 */
     background-image: none;
 }
-
 .ui-state-disabled .ui-icon {
     filter: Alpha(Opacity=35); /* support: IE8 - See #6059 */
 }
@@ -457,25 +405,20 @@ button.ui-button::-moz-focus-inner {
     width: 16px;
     height: 16px;
 }
-
 .ui-icon,
 .ui-widget-content .ui-icon {
     background-image: url("images/ui-icons_469bdd_256x240.png");
 }
-
 .ui-widget-header .ui-icon {
     background-image: url("images/ui-icons_d8e7f3_256x240.png");
 }
-
 .ui-state-default .ui-icon {
     background-image: url("images/ui-icons_6da8d5_256x240.png");
 }
-
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
     background-image: url("images/ui-icons_217bc0_256x240.png");
 }
-
 .ui-state-active .ui-icon {
     background-image: url("images/ui-icons_f9bd01_256x240.png");
 }
@@ -1202,21 +1145,18 @@ button.ui-button::-moz-focus-inner {
 .ui-corner-tl {
     border-top-left-radius: 5px;
 }
-
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
     border-top-right-radius: 5px;
 }
-
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
     border-bottom-left-radius: 5px;
 }
-
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
@@ -1230,7 +1170,6 @@ button.ui-button::-moz-focus-inner {
     opacity: .3;
     filter: Alpha(Opacity=30); /* support: IE8 */
 }
-
 .ui-widget-shadow {
     margin: -8px 0 0 -8px;
     padding: 8px;
