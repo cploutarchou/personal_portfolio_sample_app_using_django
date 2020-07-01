@@ -137,3 +137,8 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 .idea
+portfolio/__pycache__
+.vscode
+app/__pycache__
+app/migrations/__pycache__
+
