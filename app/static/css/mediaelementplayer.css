@@ -748,14 +748,12 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__overlay-error {
     position: relative;
 }
-
 .mejs__overlay-error > img {
     left: 0;
     position: absolute;
     top: 0;
     z-index: -1;
 }
-
 .mejs__cannotplay,
 .mejs__cannotplay a {
     color: #fff;
@@ -772,5 +770,4 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     padding: 0 15px;
     width: 100%;
 }
-
 /* End: Error */

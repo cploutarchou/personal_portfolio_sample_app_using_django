@@ -1,11 +1,9 @@
 .container {
   max-width: 1200px;
 }
-
 .muted {
   color: lighten($black, 40%);
 }
-
 .site-cover {
   background-size: cover;
   background-position: top center;
@@ -69,12 +67,10 @@
     }
   }
 }
-
 .post-meta {
   font-size: 13px;
   color: lighten($black, 70%);
 }
-
 .site-navbar {
   .logo {
     // position: absolute;
@@ -248,7 +244,6 @@
     }
   }
 }
-
 .entry2 {
   img {
     margin-bottom: 30px;
@@ -411,7 +406,6 @@
     }
   }
 }
-
 // Children info
 .children-info {
   li {
@@ -429,7 +423,6 @@
     padding-left: 15px;
   }
 }
-
 .sidebar-box {
   margin-bottom: 4em;
   // padding: 0 25px;
@@ -478,7 +471,6 @@
     }
   }
 }
-
 .pagination {
   margin-bottom: 5em;
   text-align: center !important;
@@ -520,7 +512,6 @@
     }
   }
 }
-
 .categories, .sidelink {
   padding: 0;
   margin: 0;
@@ -739,7 +730,6 @@
     }
   }
 }
-
 .post-entry-sidebar {
   .post-meta {
     font-size: 14px;
@@ -783,7 +773,6 @@
   margin-bottom: 5em;
   display: block;
 }
-
 .search-form {
   .form-group {
     position: relative;

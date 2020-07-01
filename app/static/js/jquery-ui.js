@@ -780,6 +780,8 @@
     };
 
 
+
+
 // This file is deprecated
     var ie = $.ui.ie = !!/msie [\w.]+/.exec(navigator.userAgent.toLowerCase());
 
@@ -1731,6 +1733,8 @@
             }
         }
     });
+
+
 
 
 }));

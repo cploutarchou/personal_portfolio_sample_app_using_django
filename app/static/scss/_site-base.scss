@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5,
 .text-black {
   color: $black !important;
 }
-
 .bg-black {
   background: $black !important;
 }
@@ -50,7 +49,6 @@ h1, h2, h3, h4, h5,
 .color-black-opacity-5 {
   color: rgba($black, .5);
 }
-
 .color-white-opacity-5 {
   color: rgba($white, .5);
 }
@@ -116,11 +114,9 @@ h1, h2, h3, h4, h5,
 .line-height-1 {
   line-height: 1 !important;
 }
-
 .bg-black {
   background: $black;
 }
-
 .form-control {
   height: 43px;
   border-radius: 0;
@@ -204,7 +200,6 @@ h1, h2, h3, h4, h5,
 .text-white-opacity-05 {
   color: rgba($white, .5);
 }
-
 .text-black-opacity-05 {
   color: rgba($black, .5);
 }
@@ -234,6 +229,7 @@ h1, h2, h3, h4, h5,
   }
 
 }
+
 
 
 .bg-image {

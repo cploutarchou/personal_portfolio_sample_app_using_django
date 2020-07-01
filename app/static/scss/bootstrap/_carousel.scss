@@ -132,14 +132,12 @@
     opacity: .9;
   }
 }
-
 .carousel-control-prev {
   left: 0;
   @if $enable-gradients {
     background: linear-gradient(90deg, rgba($black, .25), rgba($black, .001));
   }
 }
-
 .carousel-control-next {
   right: 0;
   @if $enable-gradients {
@@ -156,11 +154,9 @@
   background: transparent no-repeat center center;
   background-size: 100% 100%;
 }
-
 .carousel-control-prev-icon {
   background-image: $carousel-control-prev-icon-bg;
 }
-
 .carousel-control-next-icon {
   background-image: $carousel-control-next-icon-bg;
 }
@@ -206,7 +202,6 @@
       height: 10px;
       content: "";
     }
-
     &::after {
       position: absolute;
       bottom: -10px;

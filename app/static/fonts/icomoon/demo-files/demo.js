@@ -25,7 +25,6 @@ document.body.addEventListener("click", function (e) {
     function updateSize() {
         testDrive.style.fontSize = fontSize.value + 'px';
     }
-
     fontSize.addEventListener('change', updateSize, false);
     testText.addEventListener('input', updateTest, false);
     testText.addEventListener('change', updateTest, false);
