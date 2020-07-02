@@ -12,5 +12,4 @@ def index(request):
 
 def category(request):
     return render(request, "default_template/category.html", {
-        'current_year': datetime.datetime.now(),
     })
