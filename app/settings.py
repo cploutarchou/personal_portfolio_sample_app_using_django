@@ -72,7 +72,7 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default_template': {
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
@@ -112,4 +112,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = 'static/default_template'
+STATIC_URL = 'static/default_template/'
