@@ -128,7 +128,7 @@
                     <div class="row align-items-stretch">
 
                         <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-                            <a href="single.html" class="d-flex post-sm-entry">
+                            <a class="d-flex post-sm-entry" href={% url 'single' %}>
                                 <figure class="mr-3 mb-0"><img alt="Image" class="rounded"
                                                                src={% static 'images/img_1.jpg' %}>
                                 </figure>
@@ -140,7 +140,7 @@
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-                            <a href="single.html" class="d-flex post-sm-entry">
+                            <a class="d-flex post-sm-entry" href={% url 'single' %}>
                                 <figure class="mr-3 mb-0"><img alt="Image" class="rounded"
                                                                src={% static 'images/img_2.jpg' %}>
                                 </figure>
@@ -152,7 +152,7 @@
                         </div>
 
                         <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-                            <a href="single.html" class="d-flex post-sm-entry">
+                            <a class="d-flex post-sm-entry" href={% url 'single' %}>
                                 <figure class="mr-3 mb-0"><img alt="Image" class="rounded"
                                                                src={% static 'images/img_3.jpg' %}>
                                 </figure>
@@ -175,8 +175,8 @@
         <div class="row align-items-stretch retro-layout">
 
             <div class="col-md-5">
-                <a href="single.html" class="hentry img-1 h-100 gradient"
-                   style="background-image: url({% static 'images/img_4.jpg' %});">
+                <a class="hentry img-1 h-100 gradient"
+                   style="background-image: url({% static 'images/img_4.jpg' %});" href={% url 'single' %}>
                     <span class="post-category text-white bg-danger">Travel</span>
                     <div class="text">
                         <h2>The 20 Biggest Fintech Companies In America 2019</h2>
@@ -187,8 +187,8 @@
 
             <div class="col-md-7">
 
-                <a href="single.html" class="hentry img-2 v-height mb30 gradient"
-                   style="background-image: url({% static 'images/img_1.jpg' %});">
+                <a class="hentry img-2 v-height mb30 gradient"
+                   style="background-image: url({% static 'images/img_1.jpg' %});" href={% url 'single' %}>
                     <span class="post-category text-white bg-success">Nature</span>
                     <div class="text text-sm">
                         <h2>The 20 Biggest Fintech Companies In America 2019</h2>
@@ -197,16 +197,16 @@
                 </a>
 
                 <div class="two-col d-block d-md-flex">
-                    <a href="single.html" class="hentry v-height img-2 gradient"
-                       style="background-image: url({% static 'images/img_2.jpg' %});">
+                    <a class="hentry v-height img-2 gradient"
+                       style="background-image: url({% static 'images/img_2.jpg' %});" href={% url 'single' %}>
                         <span class="post-category text-white bg-primary">Sports</span>
                         <div class="text text-sm">
                             <h2>The 20 Biggest Fintech Companies In America 2019</h2>
                             <span>February 12, 2019</span>
                         </div>
                     </a>
-                    <a href="single.html" class="hentry v-height img-2 ml-auto gradient"
-                       style="background-image: url({% static 'images/img_3.jpg' %});">
+                    <a class="hentry v-height img-2 ml-auto gradient"
+                       style="background-image: url({% static 'images/img_3.jpg' %});" href={% url 'single' %}>
                         <span class="post-category text-white bg-warning">Lifestyle</span>
                         <div class="text text-sm">
                             <h2>The 20 Biggest Fintech Companies In America 2019</h2>
@@ -229,10 +229,10 @@
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
                 <div class="entry2">
-                    <a href="single.html"><img alt="Image" class="img-fluid rounded"
-                                               src={% static 'images/img_1.jpg' %}></a>
+                    <a href={% url 'single' %}><img alt="Image" class="img-fluid rounded"
+                                                    src={% static 'images/img_1.jpg' %}></a>
                     <span class="post-category text-white bg-success mb-3">Nature</span>
-                    <h2><a href="single.html">The 20 Biggest Fintech Companies In America 2019</a></h2>
+                    <h2><a href={% url 'single' %}>The 20 Biggest Fintech Companies In America 2019</a></h2>
                     <div class="post-meta align-items-center text-left clearfix">
                         <figure class="author-figure mb-0 mr-3 float-left"><img alt="Image"
                                                                                 class="img-fluid"
@@ -254,7 +254,7 @@
                     </figure>
                     <div class="text mr-4 order-1">
                         <span class="post-category text-white bg-success mb-3">Nature</span>
-                        <h2><a href="single.html">The 20 Biggest Fintech Companies In America 2019</a></h2>
+                        <h2><a href={% url 'single' %}>The 20 Biggest Fintech Companies In America 2019</a></h2>
                         <span class="post-meta mb-3 d-block">May 12, 2019</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium
                             sed optio.</p>
@@ -268,7 +268,7 @@
                     </figure>
                     <div class="text mr-4 order-1">
                         <span class="post-category text-white bg-success mb-3">Nature</span>
-                        <h2><a href="single.html">The 20 Biggest Fintech Companies In America 2019</a></h2>
+                        <h2><a href={% url 'single' %}>The 20 Biggest Fintech Companies In America 2019</a></h2>
                         <span class="post-meta mb-3 d-block">May 12, 2019</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium
                             sed optio.</p>
@@ -276,13 +276,13 @@
                 </div>
 
                 <div class="entry3 d-block d-sm-flex">
-                    <figure class="figure order-2"><a href="single.html"><img alt="Image"
-                                                                              class="img-fluid rounded"
-                                                                              src={% static 'images/img_4.jpg' %}></a>
+                    <figure class="figure order-2"><a href={% url 'single' %}><img alt="Image"
+                                                                                   class="img-fluid rounded"
+                                                                                   src={% static 'images/img_4.jpg' %}></a>
                     </figure>
                     <div class="text mr-4 order-1">
                         <span class="post-category text-white bg-success mb-3">Nature</span>
-                        <h2><a href="single.html">The 20 Biggest Fintech Companies In America 2019</a></h2>
+                        <h2><a href={% url 'single' %}>The 20 Biggest Fintech Companies In America 2019</a></h2>
                         <span class="post-meta mb-3 d-block">May 12, 2019</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium
                             sed optio.</p>
@@ -304,10 +304,10 @@
                     <div class="ml-auto"><a href="#" class="view-all-btn">View All</a></div>
                 </div>
                 <div class="entry2 mb-5">
-                    <a href="single.html"><img alt="Image" class="img-fluid rounded"
-                                               src={% static 'images/img_1.jpg' %}></a>
+                    <a href={% url 'single' %}><img alt="Image" class="img-fluid rounded"
+                                                    src={% static 'images/img_1.jpg' %}></a>
                     <span class="post-category text-white bg-primary mb-3">Sports</span>
-                    <h2><a href="single.html">The 20 Biggest Fintech Companies In America 2019</a></h2>
+                    <h2><a href={% url 'single' %}>The 20 Biggest Fintech Companies In America 2019</a></h2>
                     <div class="post-meta align-items-center text-left clearfix">
                         <figure class="author-figure mb-0 mr-3 float-left"><img alt="Image"
                                                                                 class="img-fluid"
