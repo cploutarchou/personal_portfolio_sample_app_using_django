@@ -14,3 +14,9 @@ def category(request):
     return render(request, "default_template/category.html", {
         'current_year': datetime.datetime.now(),
     })
+
+
+def single(request):
+    return render(request, "default_template/single.html", {
+        'current_year': datetime.datetime.now(),
+    })
