@@ -27,3 +27,10 @@ def about(request):
         'current_year': datetime.datetime.now(),
         'title': "About"
     })
+
+
+def contact(request):
+    return render(request, 'default_template/contact.html', {
+        'current_year': datetime.datetime.now(),
+        'title': "Contact US"
+    })
