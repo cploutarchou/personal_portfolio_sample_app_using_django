@@ -25,4 +25,5 @@ def single(request):
 def about(request):
     return render(request, "default_template/about.html", {
         'current_year': datetime.datetime.now(),
+        'title': "About"
     })
