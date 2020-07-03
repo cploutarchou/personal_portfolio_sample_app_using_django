@@ -36,7 +36,7 @@
             <div class="row align-items-center">
 
                 <div class="col-6 col-xl-6 logo">
-                    <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">Hikers</a></h1>
+                    <h1 class="mb-0"><a class="text-black h2 mb-0"{% url 'index' %}>Hikers</a></h1>
                 </div>
 
                 <div class="col-6 mr-auto py-3 text-right" style="position: relative; top: 3px;">
@@ -53,19 +53,19 @@
                 <nav class="site-navigation text-center " role="navigation">
 
                     <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block mb-0">
-                        <li><a href="index.html">Homepage</a></li>
-                        <li><a href="category.html">Lifestyle</a></li>
+                        <li><a href={% url 'index' %}>Homepage</a></li>
+                        <li><a href={% url 'category' %}>Lifestyle</a></li>
                         <li class="has-children">
-                            <a href="category.html">Inspiration</a>
+                            <a href={% url 'category' %}>Inspiration</a>
                             <ul class="dropdown">
-                                <li><a href="category.html">Architect</a></li>
-                                <li><a href="category.html">Minimal</a></li>
-                                <li><a href="category.html">Interior</a></li>
-                                <li><a href="category.html">Furniture</a></li>
+                                <li><a href={% url 'category' %}>Architect</a></li>
+                                <li><a href={% url 'category' %}>Minimal</a></li>
+                                <li><a href={% url 'category' %}>Interior</a></li>
+                                <li><a href={% url 'category' %}>Furniture</a></li>
                             </ul>
                         </li>
-                        <li><a href="category.html">Technology</a></li>
-                        <li><a href="category.html">Latest</a></li>
+                        <li><a href={% url 'category' %}>Technology</a></li>
+                        <li><a href={% url 'category' %}>Latest</a></li>
                     </ul>
                 </nav>
             </div>
