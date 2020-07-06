@@ -139,6 +139,6 @@ cython_debug/
 .idea
 app/__pycache__
 .vscode
-blog/__pycache__
-blog/migrations/__pycache__
+cms/__pycache__
+cms/migrations/__pycache__
 
