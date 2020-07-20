@@ -23,8 +23,8 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
 
-    objects = models.Manager()  # The default manager.
-    published = PublishedManager()  # The Dahl-specific manager.
+    objects = models.Manager()
+    published = PublishedManager()
 
     class Meta:
         ordering = ('-publish',)
@@ -33,7 +33,7 @@ class Post(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('blog:post_detail', args=[self.publish.year,
-                                                 self.publish.strftime('%m'),
-                                                 self.publish.strftime('%d'),
-                                                 self.slug])
+        return reverse('cms:post_detail', args=[self.publish.year,
+                                                self.publish.strftime('%m'),
+                                                self.publish.strftime('%d'),
+                                                self.slug])
