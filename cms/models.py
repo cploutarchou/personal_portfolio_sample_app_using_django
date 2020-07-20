@@ -23,8 +23,8 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
 
-    objects = models.Manager()  # The default manager.
-    published = PublishedManager()  # The Dahl-specific manager.
+    objects = models.Manager()
+    published = PublishedManager()
 
     class Meta:
         ordering = ('-publish',)
