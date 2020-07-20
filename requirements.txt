@@ -1,2 +1,4 @@
-django
-mysqlclient
+django==3.0.8
+wheel==0.34.2
+mysqlclient==2.0.1
+
