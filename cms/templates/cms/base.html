@@ -10,21 +10,49 @@
     <title>{% block title %}{% endblock %}</title>
 
     <link rel="canonical" href=" http://127.0.0.1:8000/">
-
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "css/bootstrap-grid.min.css" %}" rel="stylesheet">
     <link href="{% static "css/style.css" %}" rel="stylesheet">
+    <!-- Favicons -->
     <link rel="apple-touch-icon" href="{% static "assets/apple-touch-icon.png" %}" sizes="180x180">
     <link rel="icon" href="{% static "assets/img/favicons/favicon-32x32.png" %}" sizes="32x32" type="image/png">
     <link rel="icon" href="{% static "assets/img/favicons/favicon-16x16.png" %}" sizes="16x16" type="image/png">
     <link rel="manifest" href="{% static "assets/img/favicons/manifest.json" %}">
+    <link rel="icon" href="{% static "assets/img/favicons/favicon.ico" %}">
+    <meta name="msapplication-config" content="{% static "assets/img/favicons/browserconfig.xml" %}">
+    <meta name="theme-color" content="#563d7c">
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{% static "css/blog.css" %}" rel="stylesheet">
 </head>
 <body>
-<div id="content">
-    {% block content %}
-    {% endblock %}
-</div>
-<div id="sidebar">
-    <h2>My blog</h2>
-    <p>This is my blog.</p>
+<div class="container">
+    <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+                <a class="text-muted" href="#">Subscribe</a>
+            </div>
+            <div class="col-4 text-center">
+                <a class="blog-header-logo text-dark" href="#">Large</a>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+                <a class="text-muted" href="#" aria-label="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+                         viewBox="0 0 24 24" focusable="false"><title>Search</title>
+                        <circle cx="10.5" cy="10.5" r="7.5"/>
+                        <path d="M21 21l-5.2-5.2"/>
+                    </svg>
+                </a>
+                <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+            </div>
+        </div>
+    </header>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
 </div>
 </body>
 </html>
