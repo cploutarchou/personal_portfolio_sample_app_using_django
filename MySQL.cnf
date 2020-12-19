@@ -1,0 +1,6 @@
+[client]
+host = 127.0.0.1
+database = cms
+user = user
+password = pass
+default-character-set = utf8
