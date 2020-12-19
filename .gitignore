@@ -101,3 +101,4 @@ staticfiles
 *.dump
 *sql
 db.sqlite3
+core/__pycache__/
