@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    'front_end'
+    'app'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, '../front_end/templates')],
+        'DIRS': [os.path.join(BASE_DIR, '../app/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
