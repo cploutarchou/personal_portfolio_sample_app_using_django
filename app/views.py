@@ -3,7 +3,7 @@ from .models import *
 
 
 def index(request):
-    main_menu = MainMenu.objects.all()
+    main_menu = Menu.objects.all()
     context = {
         "main_menu_items": main_menu
     }

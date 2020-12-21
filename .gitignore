@@ -103,4 +103,4 @@ staticfiles
 db.sqlite3
 core/__pycache__/
 
-front_end/migrations/*
+app/migrations/*
