@@ -1,6 +1,4 @@
 from datetime import datetime
-
-from django.core.serializers import json
 from django.db import models
 
 
@@ -13,17 +11,13 @@ class Menu(models.Model):
     title = models.CharField(max_length=100)
     position = models.SmallIntegerField(2)
     group_id = models.ForeignKey(MenuGroup, on_delete=models.CASCADE)
-    created_at = models.DateTimeField(datetime.now())
+    created_at = models.DateTimeField(default=datetime.now())
     prefix = models.CharField(max_length=250)
     order = models.SmallIntegerField(2)
-    active = models.BooleanField("True")
-
-
-class Posts(models.Model):
-    pass
+    active = models.BooleanField(default=True)
 
 
 class Settings(models.Model):
     name = models.CharField(max_length=250, unique=True)
     value = models.JSONField()
-    autoload = models.BooleanField(default=True, db_index=True)
+    active = models.BooleanField(default=True, db_index=True)
