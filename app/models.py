@@ -19,5 +19,5 @@ class Menu(models.Model):
 
 class Settings(models.Model):
     name = models.CharField(max_length=250, unique=True)
-    value = models.JSONField()
+    value = models.TextField()
     active = models.BooleanField(default=True, db_index=True)

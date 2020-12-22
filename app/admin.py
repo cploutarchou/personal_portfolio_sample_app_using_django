@@ -1,7 +1,6 @@
 from django.contrib import admin
 
-from .models import Menu, MenuGroup, Posts
+from .models import Menu, MenuGroup
 
 admin.site.register(Menu)
-admin.site.register(Posts)
 admin.site.register(MenuGroup)
