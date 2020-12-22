@@ -1,5 +1,6 @@
 from datetime import datetime
 
+from django.core.serializers import json
 from django.db import models
 
 
@@ -20,3 +21,9 @@ class Menu(models.Model):
 
 class Posts(models.Model):
     pass
+
+
+class Settings(models.Model):
+    name = models.CharField(max_length=250, unique=True)
+    value = models.JSONField()
+    autoload = models.BooleanField(default=True, db_index=True)
